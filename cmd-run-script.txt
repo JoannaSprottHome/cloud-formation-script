@@ -1,0 +1,1 @@
+bash createStack.sh MyNetworkStack cloud-formation.yml network-parameters.json
