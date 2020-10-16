@@ -333,3 +333,9 @@ Resources:
         Protocol: HTTP
         UnhealthyThresholdCount: 5
         VpcId: !Ref VPC
+
+Outputs: 
+
+    LoadBalancerDNSName:
+        Description: The DNSName of the load balancer
+        Value: !GetAtt WebAppLB.DNSName              
